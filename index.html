@@ -1,0 +1,420 @@
+```html
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Frame House - Royal Wedding Reel Shoot & Content Creators</title>
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            darkMode: 'class',
+            theme: {
+                extend: {
+                    colors: {
+                        gold: { 500: '#f59e0b', 600: '#d97706' },
+                        stone: { 950: '#0c0a09' }
+                    }
+                }
+            }
+        }
+    </script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,600;0,700;1,400&family=Plus+Jakarta+Sans:wght@300;400;500;600;700&display=swap');
+        body { font-family: 'Plus Jakarta Sans', sans-serif; }
+        .font-serif-luxury { font-family: 'Cormorant Garamond', serif; }
+        .hide-scrollbar::-webkit-scrollbar { display: none; }
+        .hide-scrollbar { -ms-overflow-style: none; scrollbar-width: none; }
+        .aspect-9-16 {
+            aspect-ratio: 9/16;
+            width: 100%;
+        }
+        .glow-effect {
+            box-shadow: 0 0 25px rgba(245, 158, 11, 0.15);
+        }
+    </style>
+</head>
+<body class="bg-[#0c0a09] text-stone-200 selection:bg-amber-500 selection:text-stone-950">
+
+    <!-- Header / Navbar -->
+    <header class="fixed top-0 left-0 w-full bg-stone-950/85 backdrop-blur-md z-40 border-b border-stone-800/60">
+        <div class="max-w-7xl mx-auto px-6 h-24 flex items-center justify-between">
+            <a href="#" class="flex items-center space-x-3">
+                <img src="https://lh3.googleusercontent.com/d/1lQgjlPboS3lGRKvXvbQwSPDBfQ5GKtid=s800" alt="The Frame House Logo" class="w-12 h-12 md:w-14 md:h-14 rounded-full object-cover border border-amber-500/50 glow-effect">
+                <div class="flex flex-col">
+                    <span class="text-xl md:text-2xl font-serif-luxury font-bold tracking-widest text-amber-400">THE FRAME HOUSE</span>
+                    <span class="text-[9px] tracking-[0.25em] uppercase text-stone-400">Jodhpur • Reel Shoot & Content Creators</span>
+                </div>
+            </a>
+            
+            <nav class="hidden md:flex items-center space-x-10 font-medium text-sm tracking-widest uppercase text-stone-300">
+                <a href="#home" class="hover:text-amber-400 transition">Home</a>
+                <a href="#about" class="hover:text-amber-400 transition">Studio</a>
+                <a href="#services" class="hover:text-amber-400 transition">Functions</a>
+                <a href="#reels" class="hover:text-amber-400 transition">Reel Special</a>
+                <a href="#contact" class="hover:text-amber-400 transition">Contact</a>
+            </nav>
+
+            <div class="flex items-center space-x-4">
+                <a href="https://wa.me/917725921270?text=Hi%20The%20Frame%20House,%20mujhe%20reel%20shoot%20aur%20content%20creation%20ke%20liye%20booking%20karni%20hai." target="_blank" class="hidden sm:inline-flex items-center gap-2.5 bg-green-600 hover:bg-green-700 text-white text-xs tracking-wider uppercase font-bold px-6 py-3 rounded-full transition shadow-lg">
+                    <i class="fa-brands fa-whatsapp text-base"></i> +91 77259 21270
+                </a>
+                <button id="menuBtn" class="md:hidden p-3 rounded-2xl bg-stone-900 border border-stone-800 text-amber-400">
+                    <i class="fa-solid fa-bars text-lg"></i>
+                </button>
+            </div>
+        </div>
+
+        <div id="mobileMenu" class="hidden md:hidden bg-stone-950 border-b border-stone-800 px-6 py-6 space-y-4 tracking-widest uppercase text-xs">
+            <a href="#home" class="block hover:text-amber-400 py-1">Home</a>
+            <a href="#about" class="block hover:text-amber-400 py-1">Studio</a>
+            <a href="#services" class="block hover:text-amber-400 py-1">Functions</a>
+            <a href="#reels" class="block hover:text-amber-400 py-1">Reel Special</a>
+            <a href="#contact" class="block hover:text-amber-400 py-1">Contact</a>
+            <div class="pt-2">
+                <a href="https://wa.me/917725921270?text=Hi%20The%20Frame%20House,%20mujhe%20booking%20karni%20hai." target="_blank" class="inline-flex items-center gap-2 bg-green-600 text-white font-bold px-5 py-2.5 rounded-full w-full justify-center">
+                    <i class="fa-brands fa-whatsapp"></i> WhatsApp Chat
+                </a>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="relative min-h-screen pt-36 pb-24 px-6 flex items-center justify-center overflow-hidden">
+        <div class="absolute inset-0 z-0">
+            <img src="https://images.unsplash.com/photo-1583939003579-730e3918a45a?auto=format&fit=crop&q=80&w=1600" alt="Royal Wedding Reel Shoot" class="w-full h-full object-cover opacity-25 filter brightness-75">
+            <div class="absolute inset-0 bg-gradient-to-t from-[#0c0a09] via-[#0c0a09]/70 to-transparent"></div>
+        </div>
+        
+        <div class="relative z-20 max-w-5xl mx-auto text-center space-y-8">
+            <div class="inline-flex items-center gap-2 px-5 py-2 rounded-full border border-amber-500/30 bg-amber-500/10 text-amber-400 text-xs tracking-[0.25em] uppercase glow-effect">
+                <i class="fa-solid fa-video text-[10px]"></i> Royal Wedding Reel Shoot & Content Creators
+            </div>
+            <h1 class="text-5xl md:text-8xl font-serif-luxury font-bold tracking-tight text-white leading-[1.1]">
+                Capturing Your <span class="bg-gradient-to-r from-amber-200 via-amber-400 to-amber-600 bg-clip-text text-transparent italic">Timeless Royal Legacy</span>
+            </h1>
+            <p class="text-stone-400 text-base md:text-xl max-w-2xl mx-auto font-light leading-relaxed">
+                Jodhpur ki mitti ki khushbu aur shahi parampara ke sath, aapke har ek khubsurat pal ko professional reel shoot aur expert content creators ke sath cinematic reels mein badalne wala premier studio — <span class="text-amber-400 font-semibold">The Frame House</span>.
+            </p>
+            <div class="flex flex-wrap justify-center gap-5 pt-4">
+                <a href="#services" class="bg-amber-500 hover:bg-amber-600 text-stone-950 font-bold text-xs uppercase tracking-widest px-9 py-4 rounded-full shadow-xl shadow-amber-500/20 transition transform hover:scale-105">Explore Functions</a>
+                <a href="#contact" class="border border-stone-700 hover:border-amber-500/50 hover:bg-stone-900 text-stone-200 font-bold text-xs uppercase tracking-widest px-9 py-4 rounded-full transition">Book Appointment</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Studio / About Section -->
+    <section id="about" class="py-32 px-6 max-w-7xl mx-auto border-t border-stone-900">
+        <div class="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
+            <div class="space-y-8">
+                <div class="space-y-3">
+                    <span class="text-amber-400 uppercase tracking-[0.3em] text-xs font-semibold">About The Frame House</span>
+                    <h2 class="text-4xl md:text-5xl font-serif-luxury font-bold text-white leading-tight">Har Reel Aur Video Mein Jodhpur Ki Shaan</h2>
+                </div>
+                <p class="text-stone-400 leading-relaxed font-light text-base md:text-lg">
+                    **The Frame House** kewal ek studio nahi, balki aapke parivar ke sabse khaas safar ka sachha gawah hai. Humari expert team traditional Rajputana grandeur aur top-class content creators ke sath modern cinematic storytelling ka behtareen mel pesh karti hai.
+                </p>
+                <div class="grid grid-cols-2 gap-8 pt-4">
+                    <div class="border-l-2 border-amber-500/50 pl-6">
+                        <h4 class="text-4xl font-serif-luxury font-bold text-amber-400">5+</h4>
+                        <p class="text-xs uppercase tracking-wider text-stone-500 mt-1">Years Experience</p>
+                    </div>
+                    <div class="border-l-2 border-amber-500/50 pl-6">
+                        <h4 class="text-4xl font-serif-luxury font-bold text-amber-400">500+</h4>
+                        <p class="text-xs uppercase tracking-wider text-stone-500 mt-1">Royal Weddings</p>
+                    </div>
+                </div>
+            </div>
+            <div class="grid grid-cols-2 gap-4 relative">
+                <div class="space-y-4">
+                    <img src="https://images.unsplash.com/photo-1519741497674-611481863552?auto=format&fit=crop&q=80&w=600" alt="Wedding Moment" class="rounded-3xl shadow-2xl h-72 w-full object-cover border border-stone-800 glow-effect">
+                </div>
+                <div class="space-y-4 pt-10">
+                    <img src="https://images.unsplash.com/photo-1606800052052-a08af7148866?auto=format&fit=crop&q=80&w=600" alt="Bride Portrait" class="rounded-3xl shadow-2xl h-72 w-full object-cover border border-stone-800 glow-effect">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Wedding Cinematic Reel Shoot Special Section -->
+    <section id="reels" class="py-24 px-6 max-w-6xl mx-auto border-t border-stone-900">
+        <div class="bg-gradient-to-br from-stone-900 via-stone-950 to-stone-900 border border-amber-500/30 rounded-3xl p-8 md:p-14 shadow-2xl glow-effect space-y-10">
+            <div class="text-center space-y-3">
+                <span class="text-amber-400 uppercase tracking-[0.3em] text-xs font-semibold">✨ Special Package ✨</span>
+                <h2 class="text-3xl md:text-5xl font-serif-luxury font-bold text-white">Wedding Cinematic Reel Shoot & Content Creators</h2>
+                <p class="text-stone-300 max-w-2xl mx-auto text-sm md:text-base font-light">
+                    Aapki wedding ki memories sirf standard videos tak limited nahi rehni chahiye — un moments ko expert content creators ke sath cinematic reels mein badal kar viral banayein ❤️🎥
+                </p>
+            </div>
+
+            <!-- Features Grid -->
+            <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
+                <div class="bg-stone-950/60 border border-stone-800 p-6 rounded-2xl flex items-center space-x-4">
+                    <div class="text-amber-400 text-2xl shrink-0"><i class="fa-solid fa-mobile-screen"></i></div>
+                    <div>
+                        <h4 class="font-bold text-sm text-white">iPhone 15 Cinematic</h4>
+                        <p class="text-xs text-stone-400">High-end cinematic mode shooting</p>
+                    </div>
+                </div>
+                <div class="bg-stone-950/60 border border-stone-800 p-6 rounded-2xl flex items-center space-x-4">
+                    <div class="text-amber-400 text-2xl shrink-0"><i class="fa-solid fa-users-viewfinder"></i></div>
+                    <div>
+                        <h4 class="font-bold text-sm text-white">Expert Creators</h4>
+                        <p class="text-xs text-stone-400">Dedicated reel & content creators</p>
+                    </div>
+                </div>
+                <div class="bg-stone-950/60 border border-stone-800 p-6 rounded-2xl flex items-center space-x-4">
+                    <div class="text-amber-400 text-2xl shrink-0"><i class="fa-solid fa-video"></i></div>
+                    <div>
+                        <h4 class="font-bold text-sm text-white">Professional Gimbal</h4>
+                        <p class="text-xs text-stone-400">Smooth & stable cinematic shots</p>
+                    </div>
+                </div>
+                <div class="bg-stone-950/60 border border-stone-800 p-6 rounded-2xl flex items-center space-x-4">
+                    <div class="text-amber-400 text-2xl shrink-0"><i class="fa-solid fa-wand-magic-sparkles"></i></div>
+                    <div>
+                        <h4 class="font-bold text-sm text-white">Colour Grading</h4>
+                        <p class="text-xs text-stone-400">Professional cinematic editing</p>
+                    </div>
+                </div>
+                <div class="bg-stone-950/60 border border-stone-800 p-6 rounded-2xl flex items-center space-x-4">
+                    <div class="text-amber-400 text-2xl shrink-0"><i class="fa-solid fa-bolt"></i></div>
+                    <div>
+                        <h4 class="font-bold text-sm text-white">Fast Delivery</h4>
+                        <p class="text-xs text-stone-400">Quick turnaround time</p>
+                    </div>
+                </div>
+                <div class="bg-stone-950/60 border border-stone-800 p-6 rounded-2xl flex items-center space-x-4">
+                    <div class="text-amber-400 text-2xl shrink-0"><i class="fa-solid fa-share-nodes"></i></div>
+                    <div>
+                        <h4 class="font-bold text-sm text-white">Social Media Ready</h4>
+                        <p class="text-xs text-stone-400">Instagram & WhatsApp optimized</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="text-center space-y-4 pt-4 border-t border-stone-800">
+                <p class="text-stone-300 text-sm italic">
+                    "Aapke wedding ke candid moments, emotions, entries aur couple shots ko hamare professional content creators aise capture karenge ki reel dekhte hi maza aa jaye." ❤️
+                </p>
+                <div class="flex flex-wrap justify-center gap-4 pt-2">
+                    <a href="https://wa.me/917725921270?text=Hi%20The%20Frame%20House,%20mujhe%20Wedding%20Cinematic%20Reel%20Shoot%20aur%20Content%20Creators%20ke%20liye%20booking%20karni%20hai." target="_blank" class="bg-green-600 hover:bg-green-700 text-white font-bold text-xs uppercase tracking-widest px-8 py-3.5 rounded-full shadow-lg transition flex items-center gap-2">
+                        <i class="fa-brands fa-whatsapp text-lg"></i> WhatsApp Booking (+91 7725921270)
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services / Functions Section with 9:16 Video Carousels -->
+    <section id="services" class="py-32 bg-stone-900/30 border-t border-stone-900 px-6">
+        <div class="max-w-7xl mx-auto">
+            <div class="text-center max-w-2xl mx-auto mb-20 space-y-4">
+                <span class="text-amber-400 uppercase tracking-[0.3em] text-xs font-semibold">Specialized Functions</span>
+                <h2 class="text-4xl md:text-5xl font-serif-luxury font-bold text-white">Vivah Samaron Ke Shandaar Stambh</h2>
+                <p class="text-stone-400 font-light">Haldi, Sangeet, Wedding aur Mehndi ki shandar vertical reels aur content creation.</p>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+                
+                <!-- 1. Haldi Section -->
+                <div class="bg-stone-900/90 border border-stone-800 rounded-3xl overflow-hidden shadow-2xl flex flex-col group hover:border-amber-500/50 transition duration-500 glow-effect">
+                    <div class="aspect-9-16 relative bg-stone-950 overflow-hidden">
+                        <div id="haldi-slider" class="w-full h-full flex overflow-x-auto snap-x snap-mandatory hide-scrollbar">
+                            <div class="flex-none w-full h-full snap-start relative"><iframe src="https://drive.google.com/file/d/19SljYW47F9lfdrb5qh44C0d3m4YjOSZ9/preview" class="w-full h-full border-0" allow="autoplay"></iframe></div>
+                            <div class="flex-none w-full h-full snap-start relative"><iframe src="https://drive.google.com/file/d/1Sva7HIS0OeknjoTxoAoZtzKvv6-rv4cf/preview" class="w-full h-full border-0" allow="autoplay"></iframe></div>
+                            <div class="flex-none w-full h-full snap-start relative"><iframe src="https://drive.google.com/file/d/1KOm3T7uV4mqqtFDhqF1SnMPZLZEylV-T/preview" class="w-full h-full border-0" allow="autoplay"></iframe></div>
+                            <div class="flex-none w-full h-full snap-start relative"><iframe src="https://drive.google.com/file/d/1F7BFilTIy6OCTcs2r6RhU0-UdJsdZlMM/preview" class="w-full h-full border-0" allow="autoplay"></iframe></div>
+                        </div>
+                        <span class="absolute top-4 left-4 bg-stone-950/80 backdrop-blur-md text-amber-400 border border-amber-500/30 text-[10px] tracking-widest uppercase font-bold px-3 py-1 rounded-full z-10 pointer-events-none">Haldi (4 Videos)</span>
+                        <button onclick="scrollSlider('haldi-slider', -1)" class="absolute left-2 top-1/2 -translate-y-1/2 bg-stone-950/80 hover:bg-amber-500 hover:text-stone-950 text-white w-9 h-9 rounded-full flex items-center justify-center transition z-20 shadow-lg"><i class="fa-solid fa-chevron-left text-xs"></i></button>
+                        <button onclick="scrollSlider('haldi-slider', 1)" class="absolute right-2 top-1/2 -translate-y-1/2 bg-stone-950/80 hover:bg-amber-500 hover:text-stone-950 text-white w-9 h-9 rounded-full flex items-center justify-center transition z-20 shadow-lg"><i class="fa-solid fa-chevron-right text-xs"></i></button>
+                    </div>
+                    <div class="p-6 flex flex-col flex-1 justify-between space-y-4">
+                        <div>
+                            <h3 class="text-xl font-serif-luxury font-bold text-white mb-2">Haldi Ki Peeli Dhoop</h3>
+                            <p class="text-xs text-stone-400 leading-relaxed font-light">Haldi ke peele rang aur apno ki masti ko reels ke sath qaid karna.</p>
+                        </div>
+                        <a href="#contact" class="w-full bg-gradient-to-r from-amber-500 to-amber-600 hover:from-amber-600 hover:to-amber-700 text-stone-950 font-bold text-xs uppercase tracking-widest py-3 rounded-xl text-center transition shadow-lg shadow-amber-500/20">Book Now</a>
+                    </div>
+                </div>
+
+                <!-- 2. Sangeet Section -->
+                <div class="bg-stone-900/90 border border-stone-800 rounded-3xl overflow-hidden shadow-2xl flex flex-col group hover:border-amber-500/50 transition duration-500 glow-effect">
+                    <div class="aspect-9-16 relative bg-stone-950 overflow-hidden">
+                        <div id="sangeet-slider" class="w-full h-full flex overflow-x-auto snap-x snap-mandatory hide-scrollbar">
+                            <div class="flex-none w-full h-full snap-start relative"><iframe src="https://drive.google.com/file/d/1WFZqnQsKaKnakUGQvF_t6cw5Dllj9GtG/preview" class="w-full h-full border-0" allow="autoplay"></iframe></div>
+                            <div class="flex-none w-full h-full snap-start relative"><iframe src="https://drive.google.com/file/d/14hpGkz8R9vJDfWVGA0TNmPxiwX6RrOWf/preview" class="w-full h-full border-0" allow="autoplay"></iframe></div>
+                            <div class="flex-none w-full h-full snap-start relative"><iframe src="https://drive.google.com/file/d/1269OYF8Ezwz9Je9mVFqQVy99hTzB1PBz/preview" class="w-full h-full border-0" allow="autoplay"></iframe></div>
+                            <div class="flex-none w-full h-full snap-start relative"><iframe src="https://drive.google.com/file/d/1oNb5oMUZBH80MgvGTz8GJyncR1WqCIyF/preview" class="w-full h-full border-0" allow="autoplay"></iframe></div>
+                        </div>
+                        <span class="absolute top-4 left-4 bg-stone-950/80 backdrop-blur-md text-amber-400 border border-amber-500/30 text-[10px] tracking-widest uppercase font-bold px-3 py-1 rounded-full z-10 pointer-events-none">Sangeet (4 Videos)</span>
+                        <button onclick="scrollSlider('sangeet-slider', -1)" class="absolute left-2 top-1/2 -translate-y-1/2 bg-stone-950/80 hover:bg-amber-500 hover:text-stone-950 text-white w-9 h-9 rounded-full flex items-center justify-center transition z-20 shadow-lg"><i class="fa-solid fa-chevron-left text-xs"></i></button>
+                        <button onclick="scrollSlider('sangeet-slider', 1)" class="absolute right-2 top-1/2 -translate-y-1/2 bg-stone-950/80 hover:bg-amber-500 hover:text-stone-950 text-white w-9 h-9 rounded-full flex items-center justify-center transition z-20 shadow-lg"><i class="fa-solid fa-chevron-right text-xs"></i></button>
+                    </div>
+                    <div class="p-6 flex flex-col flex-1 justify-between space-y-4">
+                        <div>
+                            <h3 class="text-xl font-serif-luxury font-bold text-white mb-2">Sangeet Ki Thumak</h3>
+                            <p class="text-xs text-stone-400 leading-relaxed font-light">Musical night aur dazzling lights ke beech high-energy content creation.</p>
+                        </div>
+                        <a href="#contact" class="w-full bg-gradient-to-r from-amber-500 to-amber-600 hover:from-amber-600 hover:to-amber-700 text-stone-950 font-bold text-xs uppercase tracking-widest py-3 rounded-xl text-center transition shadow-lg shadow-amber-500/20">Book Now</a>
+                    </div>
+                </div>
+
+                <!-- 3. Royal Wedding Section -->
+                <div class="bg-stone-900/90 border border-stone-800 rounded-3xl overflow-hidden shadow-2xl flex flex-col group hover:border-amber-500/50 transition duration-500 glow-effect">
+                    <div class="aspect-9-16 relative bg-stone-950 overflow-hidden">
+                        <div id="wedding-slider" class="w-full h-full flex overflow-x-auto snap-x snap-mandatory hide-scrollbar">
+                            <div class="flex-none w-full h-full snap-start relative"><iframe src="https://drive.google.com/file/d/1GjFMZk1X06QgNZ2exr-wHmHqcsh55e-i/preview" class="w-full h-full border-0" allow="autoplay"></iframe></div>
+                            <div class="flex-none w-full h-full snap-start relative"><iframe src="https://drive.google.com/file/d/1_izaBJNxUklA55U78Dxc1mKeqevkjtyg/preview" class="w-full h-full border-0" allow="autoplay"></iframe></div>
+                            <div class="flex-none w-full h-full snap-start relative"><iframe src="https://drive.google.com/file/d/1AzXX0_LFPFcv3YxlkYZEu8EB_keXklN0/preview" class="w-full h-full border-0" allow="autoplay"></iframe></div>
+                            <div class="flex-none w-full h-full snap-start relative"><iframe src="https://drive.google.com/file/d/1-HjdW9Hcwjb_n_wk6q2M8I2NUfoSkaeR/preview" class="w-full h-full border-0" allow="autoplay"></iframe></div>
+                            <div class="flex-none w-full h-full snap-start relative"><iframe src="https://drive.google.com/file/d/120fruw3KSVRt4p9_Y7jy7zvioQ-IfoX8/preview" class="w-full h-full border-0" allow="autoplay"></iframe></div>
+                            <div class="flex-none w-full h-full snap-start relative"><iframe src="https://drive.google.com/file/d/1dy6A5TD5L9bbiuqm0LYVCBgH31N_pdvS/preview" class="w-full h-full border-0" allow="autoplay"></iframe></div>
+                            <div class="flex-none w-full h-full snap-start relative"><iframe src="https://drive.google.com/file/d/1_y7dlMELqZb8xKvLnmf457qmxRoiHfec/preview" class="w-full h-full border-0" allow="autoplay"></iframe></div>
+                        </div>
+                        <span class="absolute top-4 left-4 bg-stone-950/80 backdrop-blur-md text-amber-400 border border-amber-500/30 text-[10px] tracking-widest uppercase font-bold px-3 py-1 rounded-full z-10 pointer-events-none">Wedding (7 Videos)</span>
+                        <button onclick="scrollSlider('wedding-slider', -1)" class="absolute left-2 top-1/2 -translate-y-1/2 bg-stone-950/80 hover:bg-amber-500 hover:text-stone-950 text-white w-9 h-9 rounded-full flex items-center justify-center transition z-20 shadow-lg"><i class="fa-solid fa-chevron-left text-xs"></i></button>
+                        <button onclick="scrollSlider('wedding-slider', 1)" class="absolute right-2 top-1/2 -translate-y-1/2 bg-stone-950/80 hover:bg-amber-500 hover:text-stone-950 text-white w-9 h-9 rounded-full flex items-center justify-center transition z-20 shadow-lg"><i class="fa-solid fa-chevron-right text-xs"></i></button>
+                    </div>
+                    <div class="p-6 flex flex-col flex-1 justify-between space-y-4">
+                        <div>
+                            <h3 class="text-xl font-serif-luxury font-bold text-white mb-2">Royal Wedding Day</h3>
+                            <p class="text-xs text-stone-400 leading-relaxed font-light">Saat phere aur vidaai ke bhavuk kshano ko cinematic reels mein record karna.</p>
+                        </div>
+                        <a href="#contact" class="w-full bg-gradient-to-r from-amber-500 to-amber-600 hover:from-amber-600 hover:to-amber-700 text-stone-950 font-bold text-xs uppercase tracking-widest py-3 rounded-xl text-center transition shadow-lg shadow-amber-500/20">Book Now</a>
+                    </div>
+                </div>
+
+                <!-- 4. Mehndi Section -->
+                <div class="bg-stone-900/90 border border-stone-800 rounded-3xl overflow-hidden shadow-2xl flex flex-col group hover:border-amber-500/50 transition duration-500 glow-effect">
+                    <div class="aspect-9-16 relative bg-stone-950 overflow-hidden">
+                        <div id="mehndi-slider" class="w-full h-full flex overflow-x-auto snap-x snap-mandatory hide-scrollbar">
+                            <div class="flex-none w-full h-full snap-start relative">
+                                <img src="https://images.unsplash.com/photo-1544077960-604201fe74bc?auto=format&fit=crop&q=80&w=600" alt="Mehndi 1" class="w-full h-full object-cover">
+                            </div>
+                            <div class="flex-none w-full h-full snap-start relative">
+                                <img src="https://images.unsplash.com/photo-1519741497674-611481863552?auto=format&fit=crop&q=80&w=600" alt="Mehndi 2" class="w-full h-full object-cover">
+                            </div>
+                        </div>
+                        <span class="absolute top-4 left-4 bg-stone-950/80 backdrop-blur-md text-amber-400 border border-amber-500/30 text-[10px] tracking-widest uppercase font-bold px-3 py-1 rounded-full z-10 pointer-events-none">Mehndi (2 Moments)</span>
+                        <button onclick="scrollSlider('mehndi-slider', -1)" class="absolute left-2 top-1/2 -translate-y-1/2 bg-stone-950/80 hover:bg-amber-500 hover:text-stone-950 text-white w-9 h-9 rounded-full flex items-center justify-center transition z-20 shadow-lg"><i class="fa-solid fa-chevron-left text-xs"></i></button>
+                        <button onclick="scrollSlider('mehndi-slider', 1)" class="absolute right-2 top-1/2 -translate-y-1/2 bg-stone-950/80 hover:bg-amber-500 hover:text-stone-950 text-white w-9 h-9 rounded-full flex items-center justify-center transition z-20 shadow-lg"><i class="fa-solid fa-chevron-right text-xs"></i></button>
+                    </div>
+                    <div class="p-6 flex flex-col flex-1 justify-between space-y-4">
+                        <div>
+                            <h3 class="text-xl font-serif-luxury font-bold text-white mb-2">Mehndi Ki Raunak</h3>
+                            <p class="text-xs text-stone-400 leading-relaxed font-light">Hathon ki khubsurat mehndi designs aur vibrant palon ka reel shoot.</p>
+                        </div>
+                        <a href="#contact" class="w-full bg-gradient-to-r from-amber-500 to-amber-600 hover:from-amber-600 hover:to-amber-700 text-stone-950 font-bold text-xs uppercase tracking-widest py-3 rounded-xl text-center transition shadow-lg shadow-amber-500/20">Book Now</a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact & WhatsApp Form Section -->
+    <section id="contact" class="py-32 px-6 max-w-7xl mx-auto border-t border-stone-900">
+        <div class="text-center max-w-2xl mx-auto mb-20 space-y-4">
+            <span class="text-amber-400 uppercase tracking-[0.3em] text-xs font-semibold">Get In Touch</span>
+            <h2 class="text-4xl md:text-5xl font-serif-luxury font-bold text-white">Book Your Special Date</h2>
+            <p class="text-stone-400 font-light">Apna naam, mobile number aur details bharkar seedhe WhatsApp par booking request bhejein.</p>
+        </div>
+
+        <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 items-stretch">
+            <!-- Studio Details -->
+            <div class="bg-gradient-to-br from-stone-900 to-stone-950 border border-stone-800 p-10 rounded-3xl flex flex-col justify-between space-y-8 glow-effect">
+                <div>
+                    <span class="text-amber-400 text-xs tracking-widest uppercase font-semibold">Official Studio</span>
+                    <h3 class="text-3xl font-serif-luxury font-bold text-white mt-2 mb-4">The Frame House</h3>
+                    <p class="text-stone-400 text-sm leading-relaxed font-light">Aapke sabse khaas dino ko hamesha ke liye amar banane ke liye humare professional content creators taiyar hain. Jodhpur ke dil me sthit hamare studio par aapka swagat hai.</p>
+                </div>
+
+                <div class="space-y-6 border-t border-stone-800/80 pt-8">
+                    <div class="flex items-start gap-5">
+                        <div class="w-14 h-14 rounded-2xl bg-amber-500/10 border border-amber-500/30 text-amber-400 flex items-center justify-center text-xl shrink-0">
+                            <i class="fa-solid fa-location-dot"></i>
+                        </div>
+                        <div>
+                            <h4 class="font-bold text-xs uppercase tracking-widest text-stone-300 mb-1">Studio Address</h4>
+                            <p class="text-stone-400 text-sm leading-relaxed">Jalori Gate, Jodhpur (Raj.)</p>
+                        </div>
+                    </div>
+
+                    <div class="flex items-start gap-5">
+                        <div class="w-14 h-14 rounded-2xl bg-amber-500/10 border border-amber-500/30 text-amber-400 flex items-center justify-center text-xl shrink-0">
+                            <i class="fa-solid fa-phone"></i>
+                        </div>
+                        <div>
+                            <h4 class="font-bold text-xs uppercase tracking-widest text-stone-300 mb-1">Direct Helpline</h4>
+                            <a href="tel:7725921270" class="text-amber-400 font-serif-luxury text-2xl font-bold hover:underline">+91 7725921270</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- WhatsApp Direct Booking Form -->
+            <form id="whatsappForm" onsubmit="sendToWhatsApp(event)" class="bg-stone-900/80 border border-stone-800 p-10 rounded-3xl space-y-6 glow-effect">
+                <div>
+                    <label class="block text-xs uppercase tracking-widest font-semibold text-stone-300 mb-2">Aapka Naam</label>
+                    <input type="text" id="clientName" required class="w-full bg-stone-950 border border-stone-800 rounded-2xl px-5 py-4 focus:outline-none focus:border-amber-500 text-sm text-stone-200 placeholder-stone-600 transition" placeholder="Rahul Sharma">
+                </div>
+                <div>
+                    <label class="block text-xs uppercase tracking-widest font-semibold text-stone-300 mb-2">Mobile Number</label>
+                    <input type="tel" id="clientPhone" required class="w-full bg-stone-950 border border-stone-800 rounded-2xl px-5 py-4 focus:outline-none focus:border-amber-500 text-sm text-stone-200 placeholder-stone-600 transition" placeholder="9876543210">
+                </div>
+                <div>
+                    <label class="block text-xs uppercase tracking-widest font-semibold text-stone-300 mb-2">Function / Date Details</label>
+                    <textarea id="clientMessage" rows="4" required class="w-full bg-stone-950 border border-stone-800 rounded-2xl px-5 py-4 focus:outline-none focus:border-amber-500 text-sm text-stone-200 placeholder-stone-600 transition" placeholder="Haldi, Mehndi, Sangeet ya Wedding ki date aur requirements yahan likhein..."></textarea>
+                </div>
+                <button type="submit" class="w-full bg-gradient-to-r from-green-600 to-green-700 hover:from-green-700 hover:to-green-800 text-white font-bold uppercase tracking-widest text-xs py-4 rounded-2xl shadow-xl transition flex items-center justify-center gap-2">
+                    <i class="fa-brands fa-whatsapp text-lg"><span>Book Now via WhatsApp</span></i>
+                </button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="py-12 bg-stone-950 text-stone-500 text-xs tracking-widest uppercase border-t border-stone-900">
+        <div class="max-w-7xl mx-auto px-6 flex flex-col md:flex-row items-center justify-between gap-4 text-center md:text-left">
+            <div class="flex items-center gap-3 justify-center">
+                <img src="https://lh3.googleusercontent.com/d/1lQgjlPboS3lGRKvXvbQwSPDBfQ5GKtid=s800" alt="Logo" class="w-8 h-8 rounded-full object-cover border border-amber-500/40">
+                <p>&copy; 2026 The Frame House, Jodhpur. All Rights Reserved.</p>
+            </div>
+            <p class="text-amber-400 font-semibold">Contact: +91 7725921270</p>
+        </div>
+    </footer>
+
+    <!-- JavaScript for Slider and WhatsApp Redirect -->
+    <script>
+        const menuBtn = document.getElementById('menuBtn');
+        const mobileMenu = document.getElementById('mobileMenu');
+        menuBtn.addEventListener('click', () => {
+            mobileMenu.classList.toggle('hidden');
+        });
+
+        function scrollSlider(sliderId, direction) {
+            const slider = document.getElementById(sliderId);
+            const scrollAmount = slider.clientWidth;
+            slider.scrollBy({ left: direction * scrollAmount, behavior: 'smooth' });
+        }
+
+        function sendToWhatsApp(e) {
+            e.preventDefault();
+            const name = document.getElementById('clientName').value;
+            const phone = document.getElementById('clientPhone').value;
+            const msg = document.getElementById('clientMessage').value;
+
+            const whatsappNumber = "917725921270";
+            const text = `*New Booking Request - The Frame House*%0A%0A*Naam:* ${encodeURIComponent(name)}%0A*Mobile Number:* ${encodeURIComponent(phone)}%0A*Details:* ${encodeURIComponent(msg)}`;
+            
+            window.open(`https://wa.me/${whatsappNumber}?text=${text}`, '_blank');
+        }
+    </script>
+</body>
+</html>
+
+```
